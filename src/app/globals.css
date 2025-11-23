@@ -6,10 +6,19 @@
 }
 
 @theme inline {
+  /* existing tokens */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* 🌱 GreenRoute custom colors */
+  --color-leaf: #4CAF50;   /* primary eco green */
+  --color-earth: #2E2E2E;  /* deep charcoal */
+  --color-mist: #F5F7F8;   /* light mist background */
+  --color-sky: #87CBB9;    /* green-blue accent */
+  --color-clay: #D2E4C4;   /* pale sage */
+  --color-rose: #E07A5F;   /* coral accent */
 }
 
 @media (prefers-color-scheme: dark) {
